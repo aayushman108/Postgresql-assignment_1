@@ -1,0 +1,8 @@
+CREATE TABLE products (
+    productid SERIAL PRIMARY KEY,
+    productname VARCHAR(100) NOT NULL,
+    supplierid INT REFERENCES suppliers(supplierid),
+    categoryid INT REFERENCES categories(categoryid),
+    unit VARCHAR(50) NOT NULL,
+    price NUMERIC(8, 2)
+);
