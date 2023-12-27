@@ -1,0 +1,1 @@
+CREATE DATABASE Aayushman_Sharma_day_1;
